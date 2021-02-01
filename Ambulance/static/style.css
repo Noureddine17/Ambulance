@@ -1,0 +1,87 @@
+body{
+	background-image:url("ambulance.png");
+	background-repeat:no-repeat;
+	text-align:center;
+    font-weight:bolder;
+
+}
+#cadre{
+	width:500px;
+	height:500px;
+	margin:10 1200;
+	background:white;
+	display: block;
+	box-sixing: border-box;
+    min-height: 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+	margin-left : 700px;
+	margin-top:300px;
+	border-top: 10px solid #216ba2;
+	-webkit-box-sizing: border-box;
+}
+#ajout{
+	font-size:15px;
+	font-style: normal;
+	font-weight: 100;
+}
+.title{
+	font-size: 20px;
+	position:relative;
+    text-align:center;
+	
+}
+.title::before{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+    width:100%;
+    background:#216ba2;
+    height:2px;
+    z-index:-1; 
+}
+.title span{
+    background:#216ba2;
+    padding:4px 8px;
+}
+
+h4{
+	color:#216ba2;
+	font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #216ba2;
+    padding: 16px;
+    font-weight: lighter;
+    text-align: center;
+    display: inline;
+    margin-right: 950px;
+	width:500px;
+	height:500px;
+	background:white;
+	display: block;
+	border-top: 10px solid#216ba2;
+	margin:10 1200;
+	min-height: 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+	margin-left : 700px;
+	margin-top:300px;
+	
+}
+a.bouton {
+	padding: 15px 20px;
+	background: #216ba2;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top:16%;
+	position: absolute;
+	top: 50%; left: 50%; 
+ 	transform: translate(-50%, -50%);
+
+}
+a.bouton:hover {
+	background: #FFFFFF;
+	color: #216ba2;
+}

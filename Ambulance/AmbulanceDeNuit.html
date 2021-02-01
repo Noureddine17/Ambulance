@@ -1,0 +1,49 @@
+<html>
+
+<head>
+
+  <meta charset="utf-8"/>
+  
+  <title>Ambulance De Nuit </title>
+  
+  <link rel="stylesheet" type="text/css" href="static/style.css"/>
+  
+</head>
+
+<body>
+
+	<form action="/resultat" method="post">
+	
+		<div id ="cadre">
+	
+	<h1 class="title"> <span> Transport : </span> </h1>
+	
+			<div id="ajout" class="button-radio float-left">
+					<label for="Transport"> Ambulance </label>
+					<input type ="radio" name="Transport" id="Transport:Ambulance" value="Ambulance"required/>
+			</div>
+
+			<div id="ajout" class="button-radio float-left">
+					<label for ="Transport"> VSL </label>
+					<input type="radio" name="Transport"  id="Transport:VSL" value="VSL"required/>
+			</div>
+			
+	<h2 class = "title"> <span> Quand? :</span> </h2>
+		
+		<label for="Quand">Date  </label>
+	
+			<input  id="Quand" type="date" name="Quand" value="Quand" required/>
+	
+		<label for="appt">Heure </label>
+	
+			<input id="appt" type="time" name="appt" value="appt" required/>
+			
+	<br>
+		
+	<h3 class = "title"> <span> Commandez :</span></h3>
+		
+		<input type ="submit" value="Valider"/>
+		
+	</form>
+</body>
+</html>
